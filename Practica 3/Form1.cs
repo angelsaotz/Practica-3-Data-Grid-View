@@ -10,7 +10,7 @@ namespace Practica_3
             InitializeComponent();
         }
 
-        private void btnCargar_Click(object sender, EventArgs e)
+        private void botonCargar_Click(object sender, EventArgs e)
         {
             DialogResult resultado;
             resultado = openFileDialog1.ShowDialog();

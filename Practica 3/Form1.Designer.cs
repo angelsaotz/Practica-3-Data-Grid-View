@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             openFileDialog1 = new OpenFileDialog();
-            btnCargar = new Button();
+            BotonCargar = new Button();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -38,17 +38,17 @@
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
-            // btnCargar
+            // BotonCargar
             // 
-            btnCargar.FlatStyle = FlatStyle.System;
-            btnCargar.Font = new Font("Britannic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCargar.Location = new Point(271, 8);
-            btnCargar.Name = "btnCargar";
-            btnCargar.Size = new Size(287, 72);
-            btnCargar.TabIndex = 0;
-            btnCargar.Text = "CARGAR";
-            btnCargar.UseVisualStyleBackColor = true;
-            btnCargar.Click += btnCargar_Click;
+            BotonCargar.FlatStyle = FlatStyle.System;
+            BotonCargar.Font = new Font("Britannic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BotonCargar.Location = new Point(271, 8);
+            BotonCargar.Name = "BotonCargar";
+            BotonCargar.Size = new Size(287, 72);
+            BotonCargar.TabIndex = 0;
+            BotonCargar.Text = "CARGAR";
+            BotonCargar.UseVisualStyleBackColor = true;
+            BotonCargar.Click += botonCargar_Click;
             // 
             // dataGridView1
             // 
@@ -65,7 +65,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(dataGridView1);
-            Controls.Add(btnCargar);
+            Controls.Add(BotonCargar);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -75,7 +75,7 @@
         #endregion
 
         private OpenFileDialog openFileDialog1;
-        private Button btnCargar;
+        private Button BotonCargar;
         private DataGridView dataGridView1;
     }
 }
